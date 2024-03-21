@@ -11,7 +11,7 @@ const question = await inquirer.prompt([{
 {
 	type: "number",
 	name: "num2",
-	message: chalk.bold.hex("#fcba04")("Enter Your Secound Number :")
+	message: chalk.bold.hex("fcba04")("Enter Your Secound Number :")
 },
 {
 	type: "list",
