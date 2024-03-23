@@ -61,7 +61,7 @@ if (Choose.choose == "SimpleCalculation") {
     else if (question.operator == "-") {
         console.log(chalk.bold.hex("#ffffff")("Your Answer is :"), chalk.bold.hex("#ffffff")(question.num1 - question.num2));
     }
-    else if (question.operator == "*") {
+    else if (question.operator == "x") {
         console.log(chalk.bold.hex("#ffffff")("Your Answer is :"), chalk.bold.hex("#ffffff")(question.num1 * question.num2));
     }
     else if (question.operator == "/") {
