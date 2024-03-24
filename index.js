@@ -20,22 +20,22 @@ if (Choose.choose == "PercentageCalculation") {
         }]);
     const percentageCalculation = Math.round((Persenatge.obtainMarke / Persenatge.totalMarke) * 100);
     if (percentageCalculation >= 90) {
-        console.log(chalk.bold.hex("#66FF00")(`Your percentage is : ${percentageCalculation}%, and your Grad is : A+`));
+        console.log(chalk.bold.hex("#66FF00")(`Your percentage is : ${percentageCalculation}%, and your Grade is : A+`));
     }
     else if (percentageCalculation >= 80) {
-        console.log(chalk.bold.hex("#66FF00")(`Your percentage is : ${percentageCalculation}%, and your Grad is : A`));
+        console.log(chalk.bold.hex("#66FF00")(`Your percentage is : ${percentageCalculation}%, and your Grade is : A`));
     }
     else if (percentageCalculation >= 70) {
-        console.log(chalk.bold.hex("#fdee00")(`Your percentage is : ${percentageCalculation}%, and your Grad is : B`));
+        console.log(chalk.bold.hex("#fdee00")(`Your percentage is : ${percentageCalculation}%, and your Grade is : B`));
     }
     else if (percentageCalculation >= 60) {
-        console.log(chalk.bold.hex("#fdee00")(`Your percentage is : ${percentageCalculation}%, and your Grad is : C`));
+        console.log(chalk.bold.hex("#fdee00")(`Your percentage is : ${percentageCalculation}%, and your Grade is : C`));
     }
     else if (percentageCalculation >= 50) {
-        console.log(chalk.bold.hex("#fdee00")(`Your percentage is : ${percentageCalculation}%, and your Grad is : D`));
+        console.log(chalk.bold.hex("#fdee00")(`Your percentage is : ${percentageCalculation}%, and your Grade is : D`));
     }
     else {
-        console.log(chalk.bold.hex("#DC1818")(`Your percentage is : ${percentageCalculation}%, and your Grad is : F`));
+        console.log(chalk.bold.hex("#DC1818")(`Your percentage is : ${percentageCalculation}%, and your Grade is : F`));
     }
 }
 if (Choose.choose == "SimpleCalculation") {
