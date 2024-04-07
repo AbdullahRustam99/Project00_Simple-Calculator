@@ -3,6 +3,13 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
+console.log(chalk.bold("\n#####################################################"));
+console.log(chalk.bold("====================================================="));
+console.log(chalk.bold("\tWelcome To ABDULLAH Simple Calculator"));
+console.log(chalk.bold("====================================================="));
+console.log(chalk.bold("#####################################################"));
+console.log("\n");
+
 const Choose = await inquirer.prompt([{
 	type: "list",
 	name: "choose",
@@ -37,6 +44,10 @@ if (Choose.choose == "PercentageCalculation") {
 	} else {
 		console.log(chalk.bold.hex("#DC1818")(`Your percentage is : ${percentageCalculation}%, and your Grade is : F`));
 	}
+
+	console.log(chalk.bold("\n\n=========================================================="));
+	console.log(chalk.bold("\t\tGood BY Come Back Later"));
+	console.log(chalk.bold("=========================================================="));
 }
 
 if (Choose.choose == "SimpleCalculation") {
@@ -70,6 +81,6 @@ if (Choose.choose == "SimpleCalculation") {
 	} else if (question.operator == "^") {
 		console.log(chalk.bold.hex("#ffffff")("Your Answer is :"), chalk.bold.hex("#ffffff")(question.num1 ** question.num2));
 	} else {
-		console.log(chalk.bold.italic.red("Enter Number Please"));
+		
 	};
 }
